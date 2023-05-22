@@ -1,0 +1,28 @@
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  html {
+    @apply bg-secondary font-Clash selection:bg-primary selection:text-secondary;
+  }
+
+  header {
+    @apply pt-3;
+  }
+
+  .header-li {
+    @apply transition hover:text-primary;
+  }
+  .btn {
+    @apply bg-black text-white px-5 py-3 capitalize font-medium leading-relaxed transition hover:bg-primary rounded;
+  }
+  img {
+    object-fit: cover;
+  }
+  .person:not(.person-0) {
+    @apply opacity-50;
+  }
+}
