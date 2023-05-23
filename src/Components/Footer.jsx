@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <footer className="w-full mx-auto h-5 container p-[20px] flex justify-center items-center mt-10">
-        <p className="font-medium">
+        <p className="font-medium capitalize">
           Copyright 2022 uifry.com all rights reserved
         </p>
       </footer>
