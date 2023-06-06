@@ -9,23 +9,23 @@ const Header = () => {
         <img
           src={Star2}
           alt=""
-          className="absolute right-0 md:right-20 top-20"
+          className="absolute logo right-0 md:right-20 top-20"
         />
         <div className="w-full bgred-700 flex items-center gap-x-20">
           <a href="">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="logo" />
           </a>
           <ul className="hidden md:flex  capitalize font-medium gap-x-9 text-xl leading-relaxed">
-            <li className="text-primary font-bold  header-li">
+            <li className="text-primary font-bold ">
               <a href="">home</a>
             </li>
-            <li className="header-li header-li">
+            <li className="  ">
               <a href="">about us</a>
             </li>
-            <li className="header-li header-li">
+            <li className=" ">
               <a href="">pricing</a>
             </li>
-            <li className="header-li header-li">
+            <li className="   ">
               <a href="">features</a>
             </li>
           </ul>
@@ -33,7 +33,7 @@ const Header = () => {
         <a
           href=""
           role="button"
-          className="btn bg-black text-white px-5 py-3 capitalize font-medium leading-relaxed transition hover:bg-primary rounded"
+          className="btn hero-btn bg-black text-white px-5 py-3 capitalize font-medium leading-relaxed transition hover:bg-primary rounded"
         >
           download
         </a>

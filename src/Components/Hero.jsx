@@ -10,7 +10,9 @@ import useTheme from "../Data/utils/ThemeContext";
 const Hero = () => {
   const Theme = useContext(useTheme);
   return (
-    <section className={`w-full ${Theme} relative md:pt-36 lg:pt-24  pt-24`}>
+    <section
+      className={`w-full ${Theme} hero relative md:pt-36 lg:pt-24  pt-24`}
+    >
       <img src={Star} alt="" className="absolute left-10 hidden lg:block" />
       <div className="container grid md:grid-cols-1 lg:grid-cols-2 gap-y-10 items-center justify-between">
         <div className="flex flex-col gap-5 relative">
@@ -19,21 +21,24 @@ const Hero = () => {
             alt=""
             className="absolute -top-20 max-w-xs md:-top-20"
           />
-          <h1 className="text-5xl leading-head font-bold capitalize z-10">
+          <h1 className="hero-header text-5xl leading-head font-bold capitalize z-10">
             make the best financial decisions
           </h1>
-          <p className="text-black/50 font-medium z-10 max-w-md">
+          <p className="text-black/50 hero-para font-medium z-10 max-w-md">
             Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
             faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
           </p>
-          <div className="flex gap-5 flex-wrap capitalize items-center z-10">
-            <a href="" className="btn text-white flex items-center gap-3">
+          <div className="flex gap-5 hero-watch flex-wrap capitalize items-center z-10">
+            <a
+              href=""
+              className="btn hero-btn text-white flex items-center gap-3"
+            >
               get started{" "}
               <ArrowRight size="32" color="#fff" variant="TwoTone" />
             </a>
             <a
               href=""
-              className=" flex items-center gap-3 btn bg-transparent hover:bg-primary"
+              className=" flex items-cente hero-btnr  gap-3 btn bg-transparent hover:bg-primary"
             >
               <Play size="32" color="#000" /> watch video
             </a>
@@ -48,11 +53,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative">
-          <img src={Star2} alt="" className="absolute bottom-28 left-24" />
+          <img src={Star2} alt="" className="absolute  bottom-28 left-24" />
           <img
             src={Phone}
             alt=""
-            className="z-10 md:max-w-xl mx-auto max-w-full"
+            className="z-10 hero-cd md:max-w-xl mx-auto max-w-full"
           />
         </div>
       </div>
