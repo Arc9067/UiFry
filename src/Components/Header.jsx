@@ -16,16 +16,16 @@ const Header = () => {
             <img src={logo} alt="logo" />
           </a>
           <ul className="hidden md:flex  capitalize font-medium gap-x-9 text-xl leading-relaxed">
-            <li className="text-primary font-bold">
+            <li className="text-primary font-bold  header-li">
               <a href="">home</a>
             </li>
-            <li className="header-li">
+            <li className="header-li header-li">
               <a href="">about us</a>
             </li>
-            <li className="header-li">
+            <li className="header-li header-li">
               <a href="">pricing</a>
             </li>
-            <li className="header-li">
+            <li className="header-li header-li">
               <a href="">features</a>
             </li>
           </ul>
